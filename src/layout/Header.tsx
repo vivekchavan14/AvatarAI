@@ -52,7 +52,7 @@ import {
               <>
                 <Tooltip hasArrow label="Public Gallery">
                   <Button
-                    href={`/gallery/${session.userId}`}
+                    href={`/gallery/${session.user}`}
                     as={Link}
                     colorScheme="beige"
                     variant="ghost"
