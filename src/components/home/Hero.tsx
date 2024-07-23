@@ -1,8 +1,8 @@
 import { Box, Button, Flex, SimpleGrid, VStack } from '@chakra-ui/react'
-import { link } from 'fs'
 import Link from 'next/link'
 import React from 'react'
 import { HiArrowRight } from 'react-icons/hi'
+import Demo from './Demo'
 
 const Hero = () => {
   return (
@@ -43,11 +43,10 @@ const Hero = () => {
         </VStack>
 
         <Flex alignItems="center">
-            Demo Component
+            <Demo />
         </Flex>
+
          </SimpleGrid>
-            
-       
     </Box>
   )
 }
